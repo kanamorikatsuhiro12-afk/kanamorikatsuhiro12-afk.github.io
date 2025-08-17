@@ -1,0 +1,368 @@
+  li{
+    list-style-type:none;
+  }
+  a {
+    text-decoration:none;
+    color:#000;
+  }
+  header{
+    width: 1000px;
+    margin 0: auto;
+    /* 横並び */
+    display: flex;
+    justify-content: space-between;
+  }
+
+#logo{
+  font-size:35px;
+  font-weight:bold;
+  padding:10px;
+  margin-top: 30px;
+}  
+
+
+nav{
+  display: flex;
+  }
+
+nav ul{
+    display: flex;
+    margin-top: 50px;
+  }
+  
+nav ul li{
+  font-size:20px;
+  font-weight:bold;
+  margin-left:30px;  
+}
+
+nav ul li a {
+  padding: 5px 5px;
+  background-color: #00b0f0;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+
+
+#model-top {
+    width:1000px;
+    height:800px;    
+    background-image: url(./raiden.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;    
+}
+
+#model-top h1 {
+  background-color: rgba(255,0,255,0.7);
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 100px;
+}
+#model-top h3 {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+#model-top p {
+  color: magenta;
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+
+#model {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+#photo1 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./SHISEI-REPPU.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+#photo1 p {
+    color: #f00;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 200px;
+}
+
+#photo2 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./REPPU.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+#photo2 p {
+    color: #f00;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 200px;
+}
+
+#photo3 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./RAIDEN21.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+#photo3 p {
+    color: #f00;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 200px;
+}
+
+
+#photo4 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./ZERO21.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo4 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo5 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./ZERO52C.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo5 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+
+#photo6 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./SHIDEN.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo6 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo7 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./SHIDEN-KAI.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo7 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo8 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./GEKKO.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo8 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo100 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./GEKKO.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo8 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo8 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./GEKKO.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo8 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo100 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./SPITFIRE.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo100 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo101 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./Apolo-LM.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo101 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+#photo102 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./HAYABUSA.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo102 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+#photo201 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./Appolo11-0_anaglyph.bmp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo202 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./raiden_anaglyph.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+footer{
+  width:300px;
+  margin: 100px auto 40px auto;
+
+}
+#footer a {
+  text-decoration: underline;
+  color: #000d5c;
+}
