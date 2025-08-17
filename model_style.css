@@ -341,7 +341,7 @@ nav ul li a {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(./Appolo11-0_anaglyph.bmp);
+  background-image: url(./Appolo11-0_anaglyph.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover
@@ -366,3 +366,4 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
