@@ -104,7 +104,7 @@ nav ul li a {
 #photo_r31 p {
     color: magenta;
     font-size: 40px;
-    text-align: center;
+    margin: 0px;
     padding-bottom:40px
     
 }
@@ -151,7 +151,7 @@ nav ul li a {
 #photo_zero64 p {
     color: magenta;
     font-size: 40px;
-    text-align: center;
+    margin: 0px;
     padding-bottom:40px
     
 }
@@ -434,6 +434,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
