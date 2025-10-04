@@ -89,8 +89,8 @@ nav ul li a {
 }
 
 #photo_r33 {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(./RAIDEN33.jpg);
@@ -99,7 +99,7 @@ nav ul li a {
     background-size: cover
 }
 #photo_r33 p {
-    color: #f00;
+    color: #ff0000;
     font-size: 20px;
     text-align: center;
     margin: 0px;
@@ -108,8 +108,8 @@ nav ul li a {
 
 
 #photo_r31 {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(./RAIDEN33b.jpg);
@@ -118,7 +118,7 @@ nav ul li a {
     background-size: cover
 }
 #photo_r31 p {
-    color: #f00;
+    color: #ff0000;
     font-size: 20px;
     text-align: center;
     margin: 0px;
@@ -126,8 +126,8 @@ nav ul li a {
 }
 
 #photo_zero64 {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(./ZERO64.jpg);
@@ -136,7 +136,7 @@ nav ul li a {
     background-size: cover
 }
 #photo_zero64 p {
-    color: #f00;
+    color: #ff0000;
     font-size: 20px;
     text-align: center;
     margin: 0px;
@@ -421,6 +421,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
