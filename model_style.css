@@ -127,7 +127,7 @@ nav ul li a {
   
 }
 #photo_r33 p {
-    color: cyan;
+    color: #00FF80;
     font-size: 30px;   
     margin: 0px;
     padding-bottom:40px    
@@ -149,7 +149,7 @@ nav ul li a {
     align-items: flex-end      /* 縦方向下揃え */
 }
 #photo_zero64 p {
-    color: cyan;
+    color: #00FF80;
     font-size: 30px;
     margin: 0px;
     padding-bottom:40px
@@ -434,6 +434,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
