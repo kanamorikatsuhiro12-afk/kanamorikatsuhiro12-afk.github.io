@@ -88,6 +88,38 @@ nav ul li a {
     flex-wrap:wrap;
 }
 
+#photo_r33 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./RAIDEN33.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+#photo_r31 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./RAIDEN33b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+#photo_zero64 {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./ZERO64.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+
 #photo1 {
     width: 400px;
     height: 300px;
@@ -366,4 +398,5 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
