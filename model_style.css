@@ -88,6 +88,29 @@ nav ul li a {
     flex-wrap:wrap;
 }
 
+#photo_r31 {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./RAIDEN33b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;     /* 横方向中央揃え */
+    align-items: flex-end      /* 縦方向下揃え */
+}
+#photo_r31 p {
+    color: magenta;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom:40px
+    
+}
+
+
+
 #photo_r33 {
     width: 800px;
     height: 600px;
@@ -111,23 +134,6 @@ nav ul li a {
 }
 
 
-#photo_r31 {
-    width: 800px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(./RAIDEN33b.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-#photo_r31 p {
-    color: magenta;
-    font-size: 40px;
-    text-align: center;
-    
-}
 
 #photo_zero64 {
     width: 800px;
@@ -137,12 +143,16 @@ nav ul li a {
     background-image: url(./ZERO64.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover
+    background-size: cover;
+    display: flex;
+    justify-content: center;     /* 横方向中央揃え */
+    align-items: flex-end      /* 縦方向下揃え */
 }
 #photo_zero64 p {
     color: magenta;
     font-size: 40px;
     text-align: center;
+    padding-bottom:40px
     
 }
 
@@ -424,6 +434,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
