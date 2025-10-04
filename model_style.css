@@ -126,8 +126,7 @@ nav ul li a {
     color: magenta;
     font-size: 40px;
     text-align: center;
-    margin: 0px;
-    padding-top: 200px;
+    
 }
 
 #photo_zero64 {
@@ -144,8 +143,7 @@ nav ul li a {
     color: magenta;
     font-size: 40px;
     text-align: center;
-    margin: 0px;
-    padding-top: 300px;
+    
 }
 
 #photo1 {
@@ -426,6 +424,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
