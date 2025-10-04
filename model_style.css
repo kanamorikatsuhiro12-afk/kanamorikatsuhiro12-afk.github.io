@@ -96,11 +96,10 @@ nav ul li a {
     background-image: url(./RAIDEN33.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover
-  
+    background-size: cover;  
     display: flex;
     justify-content: center;     /* 横方向中央揃え */
-    align-items: flex-end;       /* 縦方向下揃え */
+    align-items: flex-end      /* 縦方向下揃え */
 
   
 }
@@ -120,7 +119,8 @@ nav ul li a {
     background-image: url(./RAIDEN33b.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover
+    background-size: cover;
+    
 }
 #photo_r31 p {
     color: magenta;
@@ -426,6 +426,7 @@ footer{
   text-decoration: underline;
   color: #000d5c;
 }
+
 
 
 
