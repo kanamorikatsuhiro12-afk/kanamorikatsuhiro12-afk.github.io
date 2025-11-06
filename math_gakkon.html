@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>学力コンテストAコース成績</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        /* Excelの強調色（赤色セル）を表現したい場合 */
+        .red-bg {
+            background-color: #e04444; /* Excelの赤に近い色 */
+            color: white;
+            font-weight: bold;
+        }
+        .yellow-bg {
+            background-color: #f7e096; /* 2023年の行の背景色 */
+        }
+        .green-bg {
+            background-color: #a7d998; /* 2022年の行の背景色 */
+        }
+        /* ... 他の年度の行にも同様のクラスを設定可能 */
+    </style>
+</head>
+<body>
+
+    <h1>大学への数学 学力コンテストAコース成績</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">年度</th>
+                <th rowspan="2">項目</th>
+                <th colspan="11">月別</th>
+            </tr>
+            <tr>
+                <th>4月</th><th>5月</th><th>6月</th><th>7月</th><th>8月</th><th>9月</th><th>10月</th><th>11月</th><th>12月</th><th>1月</th><th>2月</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="green-bg">
+                <td rowspan="3">2022</td>
+                <td>得点</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>97</td><td></td>
+            </tr>
+            <tr class="green-bg">
+                <td>平均点</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>91.2</td><td></td>
+            </tr>
+            <tr class="green-bg">
+                <td>評価</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="red-bg">実力抜群</td><td></td>
+            </tr>
+            <tr class="yellow-bg">
+                <td rowspan="3">2023</td>
+                <td>得点</td><td>89</td><td></td><td></td><td></td><td>72</td><td>73</td><td>79</td><td>74</td><td>100</td><td>74</td><td>100</td>
+            </tr>
+            <tr class="yellow-bg">
+                <td>平均点</td><td>75.5</td><td></td><td></td><td></td><td>80</td><td>77.4</td><td>79.8</td><td>77.7</td><td>81.2</td><td>86.3</td><td>91.5</td>
+            </tr>
+            <tr class="yellow-bg">
+                <td>評価</td><td>実力十分</td><td></td><td></td><td></td><td>有望</td><td>有望</td><td>実力十分</td><td>有望</td><td class="red-bg">実力抜群</td><td>有望</td><td class="red-bg">実力抜群</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2024</td>
+                <td>得点</td><td>82</td><td>70</td><td>74</td><td>70</td><td>60</td><td>97</td><td>85</td><td>56</td><td>97</td><td>89</td><td>65</td>
+            </tr>
+            <tr>
+                <td>平均点</td><td>75.2</td><td>78.4</td><td>89.1</td><td>84.8</td><td>77.8</td><td>86.7</td><td>79.6</td><td>81.6</td><td>81.7</td><td>84.2</td><td>73.1</td>
+            </tr>
+            <tr>
+                <td>評価</td><td>実力十分</td><td>有望</td><td>有望</td><td>有望</td><td>有望</td><td class="red-bg">実力抜群</td><td>実力十分</td><td>有望</td><td class="red-bg">実力抜群</td><td>実力十分</td><td>有望</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2025</td>
+                <td>得点</td><td>92</td><td>88</td><td>79</td><td>61</td><td>71</td><td>100</td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td>平均点</td><td>81.2</td><td>85.4</td><td>80.1</td><td>81.5</td><td>84.3</td><td>92.1</td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td>評価</td><td class="red-bg">実力抜群</td><td>実力十分</td><td>実力十分</td><td>有望</td><td>有望</td><td class="red-bg">実力抜群</td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
