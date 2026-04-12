@@ -310,6 +310,26 @@ nav ul li a {
   padding-top: 200px;
 }
 
+#photo9 {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./SHOKI.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#photo9 p {
+  color: #f00;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 200px;
+}
+
+
 #photo100 {
   width: 400px;
   height: 300px;
