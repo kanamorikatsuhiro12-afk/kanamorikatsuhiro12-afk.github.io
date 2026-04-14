@@ -88,7 +88,7 @@ nav ul li a {
     flex-wrap:wrap;
 }
 
-#photo_r31 {
+#photo_r33b {
     width: 600px;
     height: 500px;
     margin-left: auto;
@@ -101,7 +101,7 @@ nav ul li a {
     justify-content: center;     /* 横方向中央揃え */
     align-items: flex-end      /* 縦方向下揃え */
 }
-#photo_r31 p {
+#photo_r33b p {
     color: #008040;
     font-size: 30px;
     margin: 0px;
@@ -155,6 +155,28 @@ nav ul li a {
     padding-bottom:40px
     
 }
+
+#photo_zero64a {
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./ZERO64a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;     /* 横方向中央揃え */
+    align-items: flex-end      /* 縦方向下揃え */
+}
+#photo_zero64a p {
+    color: #008040;
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom:40px
+    
+}
+
 
 #photo1 {
     width: 400px;
