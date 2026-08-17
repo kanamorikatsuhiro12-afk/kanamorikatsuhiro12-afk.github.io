@@ -400,33 +400,6 @@ nav ul li a {
   background-size: cover
 }
 
-#photo8 p {
-  color: #f00;
-  font-size: 20px;
-  text-align: center;
-  margin: 0px;
-  padding-top: 200px;
-}
-
-#photo8 {
-  width: 400px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(./GEKKO.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-#photo8 p {
-  color: #f00;
-  font-size: 20px;
-  text-align: center;
-  margin: 0px;
-  padding-top: 200px;
-}
-
 #photo100 {
   width: 400px;
   height: 300px;
